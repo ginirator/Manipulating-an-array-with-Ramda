@@ -1,0 +1,20 @@
+{
+	"name": "manipulating-an-array-with-ramda",
+	"version": "1.0.0",
+	"description": "Create an array that is an union of 2 events and the resultant array should be based on some criteria.",
+	"main": "main.js",
+	"scripts": {
+		"start": "node main.js",
+		"lint:js": "./node_modules/.bin/eslint .  --ext .js",
+		"lint-fix": "./node_modules/.bin/eslint --fix .  --ext .js"
+	},
+	"author": "Valeriu Dodon",
+	"license": "ISC",
+	"dependencies": {
+		"ramda": "^0.27.1"
+	},
+	"devDependencies": {
+		"@babel/eslint-parser": "^7.14.7",
+		"eslint": "^8.6.0"
+	}
+}
